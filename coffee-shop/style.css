@@ -6,26 +6,25 @@ img {
   display: flex;
   height: 300px;
   width: 300px;
-  margin: 0 auto;
   border: 2px solid #fff;
   border-radius: 25px;
-  margin-top: 120px;
+  margin: 120px auto 0;
 }
 
 .container-1 {
   display: flex;
   justify-content: center;
   max-width: 900px;
-  margin: 0 auto;
   border: 2px solid lightskyblue;
+
   background-color: lightskyblue;
   border-radius: 0.8em;
   padding: 0.2em;
-  margin-bottom: 2em;
+  margin: 0 auto 2em;
+  position: relative;
 }
 
 .nav-bar:first-child {
-  margin-left: 0 auto;
 }
 
 .nav-bar {
@@ -41,6 +40,7 @@ img {
   background-color: lightskyblue;
   flex: 1;
   justify-content: space-evenly;
+  position: relative;
 }
 .item1,
 .item2,
@@ -62,6 +62,7 @@ img {
   border-radius: 0.4em;
   background-color: lightskyblue;
   margin-bottom: 20px;
+  position: relative;
 }
 
 .nav-bar .item2 {
